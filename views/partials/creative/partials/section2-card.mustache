@@ -1,0 +1,19 @@
+<div class="card1">
+  <i class="fas fa-quote-left"></i>
+  <p class="card1-text">
+    {{ text }}
+  </p>
+  <div class="card1-rating">
+    {{#stars.fullStars}}
+    <i class="fas fa-star"></i>
+    {{/stars.fullStars}}
+    {{#stars.halfStars}}
+    <i class="fas fa-star-half-alt"></i>
+    {{/stars.halfStars}}
+    {{#stars.emptyStars}}
+    <i class="far fa-star"></i>
+    {{/stars.emptyStars}}
+  </div>
+  <img src="{{ image.src }}" alt="{{ image.alt }}" class="card1-img" />
+  <h4 class="card1-name">{{ name }}</h4>
+</div>

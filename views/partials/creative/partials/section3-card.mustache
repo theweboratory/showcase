@@ -1,0 +1,19 @@
+<div class="card2">
+  <img src="{{ image.src }}" alt="{{ image.alt }}" class="card2-img" />
+  <h2 class="card2-name">
+    {{ name }} <span>({{ position }})</span>
+  </h2>
+  <ul class="card2-skills">
+    {{#skills}}
+    <li>{{ skill }}</li>
+    {{/skills}}
+  </ul>
+  <a href="#" class="card2-btn">{{ button }}</a>
+  <div class="card2-alt-btn" title="{{ title }}">
+    <div class="card2-alt-btn-line"></div>
+  </div>
+  <div class="card2-alt">
+    <h4 class="card2-alt-heading">{{ altHeading }}</h4>
+    <p class="card2-alt-p">{{ altParagraph }}</p>
+  </div>
+</div>

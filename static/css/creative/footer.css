@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    color: #444;
+    margin: 5rem 0;
+}
+
+@media (max-width: 1400px) {
+    .copyright {
+        margin: 5rem 0 4rem 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .copyright {
+        font-size: 1.8rem;
+        margin: 5rem;
+        text-align: center;
+    }
+}

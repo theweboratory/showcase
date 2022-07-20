@@ -1,0 +1,11 @@
+<div class="container">
+  <section class="section-1">
+    <h1 class="section-heading">{{ section1.heading }}</h1>
+    <div class="section-1-icons">
+      <i class="fas fa-{{ section1.icon }} change"></i>
+      {{#section1.icons}}
+      <i class="fas fa-{{ icon }}"></i>
+      {{/section1.icons}}
+    </div>
+  </section>
+</div>

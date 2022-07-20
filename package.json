@@ -1,0 +1,24 @@
+{
+  "name": "showcase",
+  "version": "0.0.1",
+  "description": "This is a showcase of different front ends that showcase some of the skills that I have acquired over the last few years. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theweboratory/showcase.git"
+  },
+  "author": "The Weboratory (Billy Duck)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theweboratory/showcase/issues"
+  },
+  "homepage": "https://github.com/theweboratory/showcase#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mustache-express": "^1.3.2"
+  }
+}

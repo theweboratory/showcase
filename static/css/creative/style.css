@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+    font-family: 'Bellota Text', cursive;
+    font-weight: 400;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.container {
+    overflow-x: hidden;
+}
+
+.section-heading {
+    font-size: 10rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999;
+    text-align: center;
+    opacity: 0.4;
+    text-shadow: 2rem 2rem 4rem #aaa;
+}
+
+@media (max-width: 1400px) {
+    .section-heading {
+        font-size: 8rem;
+        margin-bottom: 10rem;
+    }
+}
+
+@media (max-width: 750px) {
+    html {
+        font-size: 50%;
+    }
+
+    .section-heading {
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 550px) {
+    html {
+        font-size: 45%;
+    }
+
+    .section-heading {
+        font-size: 6rem;
+    }
+}
