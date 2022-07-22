@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Showcase || Business Agency</title>
+    <link
+      rel="stylesheet"
+      href="/static/css/business/style.css"
+      type="text/css"
+    />
+    {{> business/css/navbar}}
+    {{> business/css/section-1}}
+    {{> business/css/section-2}}
+    {{> business/css/section-3}}
+    {{> business/css/section-4}}
+    {{> business/css/footer}}
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Baloo+Da+2:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    {{> business/navbar}}
+    <div class="container">
+      {{> business/section-1}}
+      {{> business/section-2}}
+      {{> business/section-3}}
+      {{> business/section-4}}
+      {{> business/footer}}
+    </div>
+    {{> business/scripts/navbar}}
+    {{> business/scripts/section-2}}
+    {{> business/scripts/section-3}}
+  </body>
+</html>
