@@ -1,0 +1,15 @@
+<section id="iphone-12" class="section-2">
+  <h2 class="section-2-heading">{{ section2.heading }}</h2>
+  <div class="iphones">
+    {{#section2.images}}
+    <img src="{{ src }}" alt="{{ alt }}" class="iphone-img-{{ class }}" />
+    {{/section2.images}}
+  </div>
+  <div class="iphone-btns">
+    {{#section2.buttons}}
+    <a href="{{ href }}" class="iphone-btn center"
+      ><span>{{ title }}</span></a
+    >
+    {{/section2.buttons}}
+  </div>
+</section>

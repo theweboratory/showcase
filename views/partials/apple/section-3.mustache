@@ -1,0 +1,21 @@
+<section id="macbook-air" class="section-3 center">
+  <h2 class="section-3-heading">
+    {{ section3.heading }}
+  </h2>
+  <div class="section-3-content center">
+    {{#section3.images}}
+    <img src="{{ src }}" alt="{{ alt }}" class="macbook-img-{{ class }}" />
+    {{/section3.images}}
+    <div class="loading-wrapper">
+      <div class="loading center">
+        <i class="fab fa-apple"></i>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <div class="section-3-info">
+      <h3 class="macbook-info-heading">{{ section3.info.heading }}</h3>
+      <p class="macbook-price">{{ section3.info.price }}</p>
+      <button class="macbook-btn">{{ section3.info.button }}</button>
+    </div>
+  </div>
+</section>

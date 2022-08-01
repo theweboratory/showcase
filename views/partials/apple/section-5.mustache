@@ -1,0 +1,13 @@
+<section id="airpods" class="section-5 center">
+  <div class="air-pods">
+    <h2 class="section-5-heading">{{ section5.heading }}</h2>
+    {{#section5.images}}
+    <img src="{{ src }}" alt="{{ alt }}" class="{{ class }}" />
+    {{/section5.images}}
+    <div class="airpods-buttons">
+      {{#section5.buttons}}
+      <button class="airpods-btn">{{ title }}</button>
+      {{/section5.buttons}}
+    </div>
+  </div>
+</section>

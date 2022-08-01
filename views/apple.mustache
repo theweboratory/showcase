@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Showcase || Apple Products</title>
+    <link rel="stylesheet" href="/static/css/apple/style.css" type="text/css" />
+    {{> apple/css/navbar}}
+    {{> apple/css/section-1}}
+    {{> apple/css/section-2}}
+    {{> apple/css/section-3}}
+    {{> apple/css/section-4}}
+    {{> apple/css/section-5}}
+    {{> apple/css/footer}}
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="https://storage.googleapis.com/weboratory-website/images/showcase/apple/icons/home-icon.png" />
+    <style>
+    {{> apple/css/style/section-3-loading-wrapper-background}}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      {{> apple/section-1}}
+      {{> apple/section-2}}
+      {{> apple/section-3}}
+      {{> apple/section-4}}
+      {{> apple/section-5}}
+      {{> apple/footer}}
+    </div>
+    {{> apple/scripts/cube}}
+    {{> apple/scripts/slideshow}}
+    {{> apple/scripts/progress-bar}}
+    {{> apple/scripts/watches}}
+  </body>
+</html>

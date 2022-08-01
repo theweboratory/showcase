@@ -1,0 +1,118 @@
+.section-4 {
+    width: 100%;
+    height: 140vh;
+    padding: 20vh 0;
+    position: relative;
+    flex-direction: column;
+}
+
+.watches {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.watches > div {
+    position: absolute;
+}
+
+.watch-band-img {
+    width: 35rem;
+    height: 35rem;
+    object-fit: contain;
+}
+
+.watch-cases {
+    flex-direction: column;
+    transition: margin-top 1s;
+    margin-top: 0;
+}
+
+.watch-bands {
+    transition: margin-right 1s;
+    margin-right: 0;
+}
+
+.watch-case-img {
+    width: 35rem;
+    height: 35rem;
+    object-fit: contain;
+}
+
+.watch-control {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(221, 221, 221, 0.4);
+    border-radius: 5rem;
+}
+
+.hide-control {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.watch-control i {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.watch-top-control {
+    top: 22vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.watch-right-control {
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+}   
+
+.watch-bottom-control {
+    bottom: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.watch-left-control {
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%);
+}
+
+.watch-btn {
+    position: absolute;
+    bottom: 30vh;
+    right: 35%;
+    width: 13rem;
+    height: 5rem;
+    background-color: var(--black-color);
+    color: var(--primary-color);
+    border: 0.1rem dashed var(--white-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+    .watch-btn {
+        right: 25%;
+    }
+}
+
+@media (max-width: 700px) {
+    .watch-btn {
+        right: 15%;
+    }
+}
+
+@media (max-width: 450px) {
+    .watch-btn {
+        right: 5%;
+    }
+}
+
+

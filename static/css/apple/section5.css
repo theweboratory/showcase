@@ -1,0 +1,85 @@
+.section-5 {
+    width: 100%;
+    height: 100vh;
+}
+
+.air-pods {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    position: relative;
+}
+
+.section-5-heading {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15rem;
+    font-weight: 300;
+    color: var(--white-color);
+    text-shadow: 0.1rem 0.1rem 0rem #999;
+}
+
+.airpods-buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 5rem;
+}
+
+.airpods-btn {
+    width: 15rem;
+    height: 4rem;
+    background-color: var(--primary-color);
+    margin: 0 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.airpods-btn:last-child {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.air-pods img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.airpods-img-2 {
+    background-color: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+    .section-5-heading {
+        font-size: 12rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .airpods-img-1 {
+        display: none;
+    }
+
+    .airpods .airpods-img-2 {
+        width: 100%;
+    }
+
+    .airpods-btn {
+        background-color: var(--white-color);
+        color: var(--primary-color);
+        box-shadow: 0.1rem 0.1rem 0.1rem #ddd;
+    }
+}
+
+@media (max-width: 550px) {
+    .airpods-buttons {
+        width: 50rem;
+        text-align: center;
+    }
+}

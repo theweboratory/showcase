@@ -8,6 +8,8 @@ const mustacheExpress = require("mustache-express");
 const foodsRoutes = require('./routes/foods');
 const creativeRoutes = require('./routes/creative');
 const businessRoutes = require('./routes/business');
+const appleRoutes = require('./routes/apple');
+const portfolioRoutes = require("./routes/portfolio");
 
 // Mustache and Static Files Setup
 const VIEWS_PATH = path.join(__dirname, "/views");
@@ -23,6 +25,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/foods', foodsRoutes);
 app.use('/creative', creativeRoutes);
 app.use('/business', businessRoutes);
+app.use('/apple', appleRoutes);
+app.use('/portfolio', portfolioRoutes);
 
 // Server
 const PORT = process.env.PORT || 5000;
